@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+<!--Required metatag and stylesheet-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!--Required scripts-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!--Custom styles here-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top navbar1">
+     <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navlink">
+        <li class="active"><class="navbar-brand" href="index.html"><img src="img/churchlogo.png" id="navlogo"><span class="sr-only">(current)</span></a></li>
+
+        <li><a href="index.html"><i class="fas fa-home"></i></span> Home</a></li>
+        <li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+             <!----ABOUT US DROPDOWN --->
+        <li class="dropdown">
+         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-users"></i> About Us<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              <li><a href="pastgracius.html">Pastor Gracius Germelus</a></li>
+              <li><a href="#">Church History</a></li>
+              
+          </ul> 
+        </li> 
+                      <!---Fundraising dropdown -->
+          <li class="dropdown">
+         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></span><i class="far fa-money-bill-alt"></i> Fundraising<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              <li><a href="annualconcert.html"> Annual Concert</span></a></li>
+              <li><a href="#">Pledge</a></li>
+          </ul> 
+         
+        </li> 
+         <li><a href="construction.html"><span><span class="glyphicons glyphicons-spade"></span><i class="fas fa-church"></i></span> Construction</a></li>  
+         
+          <li><a href="newsandevents.html"><span class="glyphicon glyphicon-newspaper"></span></span> News & Events</a></li>
+    
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+<!--  *****************************************************************************************************************
+                                                    CONTACT FORMS
+   ***************************************************************************************************************** -->
+
+     <br><br><br>
+
+  <div class="container mtb">
+    <div class="row">
+      <div class="col-lg-8">
+        <h4>Just Get In Touch!</h4>
+        <div class="hline"></div>
+        <p id="pwelcoming">Thank you for visiting our website. All information needed to fellowship with us or to participate in our program will be available to you. God bless. </p>
+        <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+
+            <div class="form-group">
+              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" >
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+              <div class="validate"></div>
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+              <div class="validate"></div>
+            </div>
+
+            <div class="loading"><img src="lib/php-mail-form/loading.gif"></div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+
+            <div class="form-send">
+              <button type="submit" class="btn btn-large">Send Message</button>
+            </div>
+
+          </form>
+      </div>
+
+     <div class="col-lg-4 ownaddress">
+        <h4>Our Address</h4>
+        <div class="hline"></div>
+        <br> <!--Temporary fix give address an id -->
+        <p id="adress">
+          123456 ave,<br/> Lamentin 54, Carrefour,<br/> Haiti.<br/>
+        </p> <!---end address --->
+
+        <p id="electronicinfo">
+          Email: lamentin54@gmail.com<br/> Tel: +509 234 1347
+        </p>
+
+        <p>Feel free to contact us at anytime. One of our beloved member of Bet Hamidrash will respond to your request promptly.</p>
+
+      </div>
+    </div>
+  </div>
+
+
+    
+    </body>

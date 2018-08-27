@@ -1,0 +1,495 @@
+ /*
+    *****************************************************************************************
+                                          NAVIGATION
+    *****************************************************************************************
+         */
+
+.navbar1{
+   
+  margin-bottom: 25px;
+  background-color: white; 
+  
+  padding-top: 15px;
+}
+
+/*ICON PLACEMENTS */
+#homeicon{
+  padding-left: 12px;
+}
+
+#contacticon{
+  padding-left: 18px;
+}
+
+#aboutusicon{
+padding-left: 19px;  
+}
+
+#fundicon{
+ padding-left: 26px;
+}
+
+#constructionicon{
+  padding-left: 38px;
+}
+
+#newsicon{
+padding-left: 36px;
+}
+
+/* Href coloring */
+.navbar-default .navbar-nav > li > a{
+  color: #4e5156;
+  font-size: 15px;
+  padding-top: 35px;
+}
+
+/* active */
+
+      
+  .navbar-default  .navlink > .active > a,
+  .navbar-default  .navlink > .active > a:hover;
+  .navbar-default  .navlink > .active > a:focus {
+     color:#ffffff;
+  background-color: #c8ffab;
+
+  }
+
+
+
+
+ /*LINK Hover */
+.navbar-default .navbar-nav> li > a:hover,
+.navbar-default .navbar-nav> li > a:focus{
+  color:#4bb200;
+  background-color: transparent;
+}
+    /* color navbar open */
+
+.navbar-default .navar-nav > .open >a,
+.navbar-default .navar-nav > .open >a:hover,
+.navbar-default .navar-nav > .open >a:focus {
+
+background-color: #4bb200;
+color: #4e5156;
+}
+
+ /* NAVLOGO */
+
+ #navlogo {
+   width: 310px;
+  height: 120px; 
+          }
+ /*
+CAROUSEL
+**********
+ */
+
+.carouselcontainer
+          {
+  margin-top: 160px;
+
+           }
+
+
+/* difficulties centered the button */
+
+/* Collapstible Stay in Touch */
+
+#collapsestayintouch
+{
+
+margin-left:  37%;
+margin-top:    5%;
+margin-bottom: 4%;
+background-color: white;
+color:black;
+}
+
+.collapsewrapper{
+ 
+
+background-color: /*#2fc652;*/ /*#31d858;*/ #2dc450; /*#28a745;*/
+margin-top: 25px;
+}
+
+#sendbutton{
+
+margin-left: 42%;
+margin-top:  3%;
+margin-bottom: 5%;
+background-color: white;
+color:black;
+
+
+}
+
+/* Testimony  */
+.testimonycontainer{
+        margin-top: 40px;
+
+}
+
+blockquote{
+  color:green;
+}
+
+.footquote{
+  background-color: yellow;  /* Yellow color temporary, maybe lighter yellow */
+}
+
+/*  Quotations     */
+
+    /* add color (green to block quote. image slider) */
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+   /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+blockquote footer {
+    padding: 0 2em 0 0;
+    text-align:right;
+nk }
+blockquote cite:before {
+    content: "\2013";
+}
+
+
+/* Info and Entertainment */
+
+.responsive{
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.2%;
+  position: relative;
+
+}
+ /*Youtube video */
+.responsive iframe {
+position: absolute;
+width: 100%;
+height: 100%;
+
+}
+
+.panel h4{
+
+  text-align: center;
+
+  /*Try to add icon and Church type writing */
+
+}
+
+/*
+ *****************************************************************************************
+                                        CONCTACT PAGE
+ *****************************************************************************************
+                                                                                           */
+
+#contactbackimg {
+
+  background-image: url("../img/bluprintfront.jpg");
+}  /* doesn't work */
+
+.mtb {
+  margin-top: 130px;
+  margin-bottom: 80px;
+}
+
+.hline {
+  border-bottom: 2px solid #2dc450; /*green */
+}
+
+.mt {
+  margin-top: 60px;
+}
+
+
+.hline-w {
+  border-bottom: 2px solid #ffffff;  /* add green color */
+  margin-bottom: 25px;
+}
+
+#pwelcoming{
+ margin-top: 9px;
+ margin-bottom: 9px;
+
+
+}
+
+/* Contact Form */
+
+.contact-form input, .contact-form textarea {
+  padding: 10px 12px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  height: auto;
+}
+
+.contact-form .form-send {
+  text-align: center;
+}
+
+.contact-form .form-send button  {
+  background: #5cff59;
+  border: 0;
+  padding: 12px 40px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-form .form-send button:hover {
+  background: green;
+}
+
+.contact-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact-form .loading {
+  display: none;
+  color: #555;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.contact-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.contact-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+/*
+ *********************************************************************************************
+                                      Pastor GRACIUS PAGE
+ **********************************************************************************************
+                                                                                           */
+
+
+.profile{
+
+  margin-top: 140px;
+
+}
+
+.bodyprofile{
+background-image: url("blueprintfront.jpg")opacity: 0.1;
+background-size: cover;
+  
+    
+
+}
+
+.imgprofile{
+ 
+ width: 360px;
+ height: 360px;
+padding-top: 28px;
+}
+
+#profileheader{
+color:green;
+
+}
+
+
+
+/*
+ *********************************************************************************************
+                                      ANNUAL CONCERT PAGE
+ **********************************************************************************************
+                                                                                           */
+
+.jumbcontain
+    {
+
+background-image: url("");
+background-color: /*#2fd674; */
+ background-position: center fixed; 
+  background-size: cover;
+ background-position: top; 
+  color: black;
+     }
+
+    
+
+
+#concerttitle{
+  text-align: center;
+}
+
+
+#concerttitle2 {
+ text-align: center;
+ }
+
+ 
+
+.headerconcert{
+  background-color: green;
+}
+
+ /*====== Clock======== */
+
+
+
+.containclock{
+  text-align: center;
+  background: /*#00ECB9; */
+  font-family: sans-serif;
+  font-weight: 100;
+}
+    
+
+h1{
+  color: #396;
+  font-weight: 60; /* 100 */
+  font-size: 28px; /* 34 */
+  margin: 30px 0px 10px; /* 40/ 0 20px */
+}
+
+.link{
+  margin-top: 30px; /* 40 */
+}
+
+
+
+#clockdiv{
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 60; /* 100 */
+  text-align: center;
+  font-size: 30px;
+}
+
+
+#clockdiv > div{
+  padding: 10px;
+  border-radius: 3px;
+  background: #00BF96;
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  padding: 10px; /*15 */
+  border-radius: 2px;  /* 3px */
+  background: #00816A;
+  display: inline-block;
+}
+
+.smalltext{
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+
+/*
+ *********************************************************************************************
+                       News and Events
+
+ **********************************************************************************************
+                                                                                          */
+
+
+
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.card {
+  height: 100%;
+}
+
+
+/*
+ *********************************************************************************************
+                                            FOOTER PAGE
+ **********************************************************************************************
+                                                                                           */
+
+
+
+.footnav { 
+
+background-color: #2dc450;  
+    /*#c8ffab; light green*/
+    padding:20px;
+
+ }
+
+ul.unstyled{
+
+  list-style: none;
+  padding: 0;
+}
+
+
+ .footcontain h6 {
+  font-size: 15px;
+ color:white;
+
+
+ }
+
+#logofooter{
+
+width: 150px;
+height: 80px;
+
+}
+
+  /*
+ *********************************************************************************************
+                                     CONSTRUCTION PAGE
+ **********************************************************************************************
+                                                                                           */
+
+.thumbnail img{
+
+  width: 340px;
+  height:200px;
+}
+

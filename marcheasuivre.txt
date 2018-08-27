@@ -1,0 +1,39 @@
+
+
+Hi 
+I would like all theses 3 pictures : pic1,pic2 pic3 pic5 to be photoshoped.
+please model it after picture "WebsiteModel" especially pic 1.
+
+all 3 pictures will be inserted into a website carousel see pic (websitepg1, websitepg2,..)
+
+I would like all 3 pictures to have the same or similar theme. 
+with some green background -side or all around. 
+
+
+main green #2dc450  and bootrap 3 panel sucess color (pale green)
+
+Logo for a church. 
+name of the church is "Church of Lamentin 54"
+
+
+L'église de Lamentin 54  (in French)
+
+main green #2dc450  and bootrap 3 panel sucess color (pale green)
+
+
+-------------------
+Copy
+Pale Goldenrod
+#C2EAAA
+Copy
+Dark Khaki
+#9CC872
+Copy
+Dark Olive Green
+#4F7930
+Copy
+White
+#FBFBFB
+Copy
+Slate Gray
+#808285
